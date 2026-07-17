@@ -1,0 +1,939 @@
+<!-- =========================================================
+FAQ SECTION
+
+Archivo:
+components/faq.html
+
+Estilo:
+- Constructivismo moderno
+- Arquitectura industrial
+- Editorial minimalista
+
+Incluye:
+- Header de sección
+- Introducción
+- Preparación acordeón
+- Elementos visuales
+========================================================= -->
+
+
+<section
+    id="faq"
+    class="
+    relative
+    min-h-screen
+    bg-[#E7E4DD]
+    overflow-hidden
+    py-32">
+
+
+
+    <!-- =====================================================
+            BACKGROUND ELEMENTS
+    ====================================================== -->
+
+
+    <div
+        class="
+        absolute
+        inset-0
+        pointer-events-none">
+
+
+
+        <div
+            class="
+            absolute
+            left-0
+            top-32
+            w-72
+            h-[3px]
+            bg-[#D72638]">
+        </div>
+
+
+
+        <div
+            class="
+            absolute
+            right-20
+            top-20
+            w-36
+            h-36
+            border-[8px]
+            border-[#141414]
+            opacity-10
+            rotate-45">
+        </div>
+
+
+
+        <div
+            class="
+            absolute
+            left-24
+            bottom-24
+            w-28
+            h-28
+            bg-[#D72638]
+            opacity-20
+            rotate-12">
+        </div>
+
+
+
+        <div
+            class="
+            absolute
+            right-0
+            bottom-40
+            w-64
+            h-[2px]
+            bg-[#141414]/20">
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- =====================================================
+            MAIN CONTAINER
+    ====================================================== -->
+
+
+    <div
+        class="
+        relative
+        z-10
+        max-w-6xl
+        mx-auto
+        px-6
+        lg:px-10">
+
+
+
+
+
+
+        <!-- =================================================
+                SECTION HEADER
+        ================================================== -->
+
+
+        <div
+            id="faq-header"
+            class="
+            max-w-3xl
+            mb-16">
+
+
+
+            <div
+                class="
+                flex
+                items-center
+                gap-4
+                mb-6">
+
+
+                <span
+                    class="
+                    w-12
+                    h-[3px]
+                    bg-[#D72638]">
+                </span>
+
+
+
+                <p
+                    class="
+                    uppercase
+                    tracking-[0.35em]
+                    text-xs
+                    font-semibold">
+
+
+                    Preguntas frecuentes
+
+
+                </p>
+
+
+
+            </div>
+
+
+
+
+
+
+            <h2
+                class="
+                font-['Bebas_Neue']
+                text-6xl
+                lg:text-8xl
+                uppercase
+                leading-[0.85]
+                tracking-wide">
+
+
+                TODO LO QUE
+                <span
+                    class="
+                    block
+                    text-[#D72638]">
+
+                    NECESITAS SABER
+
+                </span>
+
+
+            </h2>
+
+
+
+
+
+
+            <p
+                class="
+                mt-6
+                max-w-xl
+                text-[#5D5D5D]
+                leading-relaxed">
+
+
+                Encuentra respuestas sobre registro,
+                horarios, participación y detalles generales
+                del encuentro.
+
+
+            </p>
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <!-- =================================================
+                FAQ ACCORDION CONTAINER
+        ================================================== -->
+
+
+        <div
+            id="faq-container"
+            class="
+            max-w-4xl">
+
+
+
+            <!-- ITEMS CONTINUARÁN -->
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+</section>
+        <!-- =====================================================
+                FAQ ACCORDION
+        ====================================================== -->
+
+
+        <div
+            id="faq-container"
+            class="
+            max-w-5xl
+            mx-auto">
+
+
+
+            <!-- ITEM 01 -->
+
+            <div
+                class="
+                faq-item
+                border-b
+                border-[#141414]/20
+                py-8">
+
+
+                <button
+                    class="
+                    faq-question
+                    w-full
+                    flex
+                    justify-between
+                    items-center
+                    text-left
+                    group">
+
+
+                    <span
+                        class="
+                        font-['Bebas_Neue']
+                        text-3xl
+                        uppercase
+                        tracking-wide">
+
+
+                        ¿Quién puede participar?
+
+
+                    </span>
+
+
+
+                    <span
+                        class="
+                        faq-icon
+                        text-3xl
+                        transition-transform
+                        duration-300">
+
+
+                        +
+
+
+                    </span>
+
+
+                </button>
+
+
+
+
+                <div
+                    class="
+                    faq-answer
+                    overflow-hidden
+                    max-h-0
+                    transition-all
+                    duration-500">
+
+
+                    <p
+                        class="
+                        pt-6
+                        max-w-3xl
+                        text-[#5D5D5D]
+                        leading-relaxed">
+
+
+                        El evento está dirigido a arquitectos,
+                        ingenieros, diseñadores, estudiantes y
+                        profesionales interesados en la evolución
+                        de la arquitectura industrial y los nuevos
+                        procesos constructivos.
+
+
+                    </p>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+            <!-- ITEM 02 -->
+
+
+            <div
+                class="
+                faq-item
+                border-b
+                border-[#141414]/20
+                py-8">
+
+
+                <button
+                    class="
+                    faq-question
+                    w-full
+                    flex
+                    justify-between
+                    items-center
+                    text-left
+                    group">
+
+
+                    <span
+                        class="
+                        font-['Bebas_Neue']
+                        text-3xl
+                        uppercase
+                        tracking-wide">
+
+
+                        ¿Dónde se realizará el evento?
+
+
+                    </span>
+
+
+
+                    <span
+                        class="
+                        faq-icon
+                        text-3xl
+                        transition-transform
+                        duration-300">
+
+
+                        +
+
+
+                    </span>
+
+
+
+                </button>
+
+
+
+
+
+                <div
+                    class="
+                    faq-answer
+                    overflow-hidden
+                    max-h-0
+                    transition-all
+                    duration-500">
+
+
+                    <p
+                        class="
+                        pt-6
+                        max-w-3xl
+                        text-[#5D5D5D]
+                        leading-relaxed">
+
+
+                        La sede será el Centro Internacional de
+                        Arquitectura, un espacio diseñado para
+                        conferencias, talleres y encuentros
+                        profesionales.
+
+
+                    </p>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+            <!-- ITEM 03 -->
+
+
+            <div
+                class="
+                faq-item
+                border-b
+                border-[#141414]/20
+                py-8">
+
+
+                <button
+                    class="
+                    faq-question
+                    w-full
+                    flex
+                    justify-between
+                    items-center
+                    text-left
+                    group">
+
+
+                    <span
+                        class="
+                        font-['Bebas_Neue']
+                        text-3xl
+                        uppercase
+                        tracking-wide">
+
+
+                        ¿El registro tiene costo?
+
+
+                    </span>
+
+
+
+                    <span
+                        class="
+                        faq-icon
+                        text-3xl
+                        transition-transform
+                        duration-300">
+
+
+                        +
+
+
+                    </span>
+
+
+
+                </button>
+
+
+
+
+
+                <div
+                    class="
+                    faq-answer
+                    overflow-hidden
+                    max-h-0
+                    transition-all
+                    duration-500">
+
+
+                    <p
+                        class="
+                        pt-6
+                        max-w-3xl
+                        text-[#5D5D5D]
+                        leading-relaxed">
+
+
+                        El acceso funciona mediante registro previo.
+                        Los detalles sobre modalidades, paquetes y
+                        disponibilidad serán comunicados por el
+                        equipo organizador.
+
+
+                    </p>
+
+
+                </div>
+
+
+
+            </div>
+                        <!-- ITEM 04 -->
+
+
+            <div
+                class="
+                faq-item
+                border-b
+                border-[#141414]/20
+                py-8">
+
+
+                <button
+                    class="
+                    faq-question
+                    w-full
+                    flex
+                    justify-between
+                    items-center
+                    text-left
+                    group">
+
+
+                    <span
+                        class="
+                        font-['Bebas_Neue']
+                        text-3xl
+                        uppercase
+                        tracking-wide">
+
+
+                        ¿Qué actividades incluye?
+
+
+                    </span>
+
+
+
+                    <span
+                        class="
+                        faq-icon
+                        text-3xl
+                        transition-transform
+                        duration-300">
+
+
+                        +
+
+
+                    </span>
+
+
+
+                </button>
+
+
+
+
+
+                <div
+                    class="
+                    faq-answer
+                    overflow-hidden
+                    max-h-0
+                    transition-all
+                    duration-500">
+
+
+                    <p
+                        class="
+                        pt-6
+                        max-w-3xl
+                        text-[#5D5D5D]
+                        leading-relaxed">
+
+
+                        El programa contempla conferencias magistrales,
+                        talleres especializados, espacios de networking,
+                        exhibiciones y encuentros con profesionales del
+                        sector.
+
+
+                    </p>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+            <!-- ITEM 05 -->
+
+
+            <div
+                class="
+                faq-item
+                border-b
+                border-[#141414]/20
+                py-8">
+
+
+                <button
+                    class="
+                    faq-question
+                    w-full
+                    flex
+                    justify-between
+                    items-center
+                    text-left
+                    group">
+
+
+                    <span
+                        class="
+                        font-['Bebas_Neue']
+                        text-3xl
+                        uppercase
+                        tracking-wide">
+
+
+                        ¿Cómo recibo mi confirmación?
+
+
+                    </span>
+
+
+
+                    <span
+                        class="
+                        faq-icon
+                        text-3xl
+                        transition-transform
+                        duration-300">
+
+
+                        +
+
+
+                    </span>
+
+
+
+                </button>
+
+
+
+
+
+                <div
+                    class="
+                    faq-answer
+                    overflow-hidden
+                    max-h-0
+                    transition-all
+                    duration-500">
+
+
+                    <p
+                        class="
+                        pt-6
+                        max-w-3xl
+                        text-[#5D5D5D]
+                        leading-relaxed">
+
+
+                        Después de completar el formulario de registro,
+                        recibirás una confirmación con los detalles
+                        del evento, horarios y recomendaciones de
+                        asistencia.
+
+
+                    </p>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+            <!-- ITEM 06 -->
+
+
+            <div
+                class="
+                faq-item
+                border-b
+                border-[#141414]/20
+                py-8">
+
+
+                <button
+                    class="
+                    faq-question
+                    w-full
+                    flex
+                    justify-between
+                    items-center
+                    text-left
+                    group">
+
+
+                    <span
+                        class="
+                        font-['Bebas_Neue']
+                        text-3xl
+                        uppercase
+                        tracking-wide">
+
+
+                        ¿Puedo asistir solamente a una conferencia?
+
+
+                    </span>
+
+
+
+                    <span
+                        class="
+                        faq-icon
+                        text-3xl
+                        transition-transform
+                        duration-300">
+
+
+                        +
+
+
+                    </span>
+
+
+
+                </button>
+
+
+
+
+
+                <div
+                    class="
+                    faq-answer
+                    overflow-hidden
+                    max-h-0
+                    transition-all
+                    duration-500">
+
+
+                    <p
+                        class="
+                        pt-6
+                        max-w-3xl
+                        text-[#5D5D5D]
+                        leading-relaxed">
+
+
+                        La agenda está diseñada como una experiencia
+                        completa, aunque algunas actividades pueden
+                        contar con acceso independiente dependiendo
+                        de la disponibilidad.
+
+
+                    </p>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+        <!-- =====================================================
+                FINAL CTA
+        ====================================================== -->
+
+
+        <div
+            class="
+            mt-32
+            flex
+            flex-col
+            lg:flex-row
+            items-center
+            justify-between
+            gap-10
+            border-t
+            border-[#141414]/20
+            pt-12">
+
+
+
+            <div>
+
+
+                <p
+                    class="
+                    uppercase
+                    tracking-[0.3em]
+                    text-xs
+                    text-[#5D5D5D]">
+
+
+                    ¿Todavía tienes dudas?
+
+
+                </p>
+
+
+                <h3
+                    class="
+                    mt-3
+                    font-['Bebas_Neue']
+                    text-5xl
+                    uppercase">
+
+
+                    Hablemos del evento
+
+
+                </h3>
+
+
+            </div>
+
+
+
+
+
+            <a
+                href="#register"
+                class="
+                bg-[#D72638]
+                text-white
+                px-10
+                py-5
+                uppercase
+                tracking-[0.25em]
+                font-semibold
+                hover:scale-105
+                transition">
+
+
+                Registrarme
+
+
+            </a>
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+</section>

@@ -1,0 +1,963 @@
+<!-- =========================================================
+FOOTER COMPONENT
+Archivo: components/footer.html
+
+Estilo:
+- Constructivismo moderno
+- Arquitectura industrial
+- Editorial premium
+
+Incluye:
+- Marca del evento
+- Navegación
+- Información
+- Elementos geométricos
+- Preparación GSAP
+========================================================== -->
+
+
+<footer
+    id="footer"
+    class="
+    relative
+    bg-[#141414]
+    text-white
+    overflow-hidden
+    py-24">
+
+
+
+
+
+    <!-- =====================================================
+            BACKGROUND ELEMENTS
+    ====================================================== -->
+
+
+    <div
+        class="
+        absolute
+        inset-0
+        pointer-events-none">
+
+
+
+        <!-- línea roja -->
+
+        <div
+            class="
+            absolute
+            top-24
+            left-0
+            w-72
+            h-[3px]
+            bg-[#D72638]">
+        </div>
+
+
+
+
+        <!-- bloque geométrico -->
+
+        <div
+            class="
+            absolute
+            right-20
+            top-20
+            w-40
+            h-40
+            border-[8px]
+            border-white/10
+            rotate-45">
+        </div>
+
+
+
+
+        <!-- bloque rojo -->
+
+        <div
+            class="
+            absolute
+            bottom-20
+            left-24
+            w-28
+            h-28
+            bg-[#D72638]
+            opacity-20
+            rotate-12">
+        </div>
+
+
+
+        <!-- líneas industriales -->
+
+        <div
+            class="
+            absolute
+            bottom-0
+            right-0
+            w-[500px]
+            h-[2px]
+            bg-white/10">
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- =====================================================
+            MAIN CONTAINER
+    ====================================================== -->
+
+
+    <div
+        class="
+        relative
+        z-10
+        max-w-7xl
+        mx-auto
+        px-6
+        lg:px-12">
+
+
+
+
+
+
+        <!-- =================================================
+                FOOTER HEADER
+        ================================================== -->
+
+
+        <div
+            id="footer-header"
+            class="
+            max-w-4xl
+            mb-20">
+
+
+
+            <div
+                class="
+                flex
+                items-center
+                gap-4
+                mb-8">
+
+
+                <span
+                    class="
+                    w-14
+                    h-[3px]
+                    bg-[#D72638]">
+                </span>
+
+
+
+                <p
+                    class="
+                    uppercase
+                    tracking-[0.35em]
+                    text-xs
+                    text-white/50
+                    font-semibold">
+
+
+                    Arquitectura Industrial
+
+
+                </p>
+
+
+            </div>
+
+
+
+
+
+            <h2
+                class="
+                font-['Bebas_Neue']
+                text-7xl
+                lg:text-9xl
+                uppercase
+                leading-[0.85]
+                tracking-wide">
+
+
+                ESTRUCTURA
+
+
+                <span
+                    class="
+                    block
+                    text-[#D72638]">
+
+
+                    & MOVIMIENTO
+
+
+                </span>
+
+
+            </h2>
+
+
+
+
+
+            <p
+                class="
+                mt-8
+                max-w-2xl
+                text-white/60
+                text-lg
+                leading-relaxed">
+
+
+                Un encuentro donde arquitectura,
+                ingeniería y diseño convergen para
+                imaginar nuevas formas de construir
+                el futuro.
+
+
+            </p>
+
+
+
+
+        </div>
+                <!-- =================================================
+                FOOTER GRID
+        ================================================== -->
+
+
+        <div
+            id="footer-grid"
+            class="
+            grid
+            md:grid-cols-2
+            lg:grid-cols-4
+            gap-12
+            border-t
+            border-white/10
+            pt-16">
+
+
+
+
+
+
+            <!-- =============================================
+                    COLUMN 01
+                    EVENTO
+            ============================================== -->
+
+
+            <div
+                class="footer-column">
+
+
+                <h3
+                    class="
+                    font-['Bebas_Neue']
+                    text-3xl
+                    uppercase
+                    tracking-wide
+                    mb-8">
+
+
+                    Evento
+
+
+                </h3>
+
+
+
+
+
+                <ul
+                    class="
+                    space-y-4
+                    text-white/60">
+
+
+
+                    <li>
+
+                        <a
+                            href="#about-container"
+                            class="
+                            footer-link
+                            hover:text-white
+                            transition">
+
+
+                            Sobre el evento
+
+
+                        </a>
+
+
+                    </li>
+
+
+
+                    <li>
+
+                        <a
+                            href="#topics-container"
+                            class="
+                            footer-link
+                            hover:text-white
+                            transition">
+
+
+                            Temáticas
+
+
+                        </a>
+
+
+                    </li>
+
+
+
+                    <li>
+
+                        <a
+                            href="#speakers"
+                            class="
+                            footer-link
+                            hover:text-white
+                            transition">
+
+
+                            Ponentes
+
+
+                        </a>
+
+
+                    </li>
+
+
+
+                    <li>
+
+                        <a
+                            href="#agenda"
+                            class="
+                            footer-link
+                            hover:text-white
+                            transition">
+
+
+                            Agenda
+
+
+                        </a>
+
+
+                    </li>
+
+
+
+                </ul>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <!-- =============================================
+                    COLUMN 02
+                    EXPERIENCIA
+            ============================================== -->
+
+
+            <div
+                class="footer-column">
+
+
+                <h3
+                    class="
+                    font-['Bebas_Neue']
+                    text-3xl
+                    uppercase
+                    tracking-wide
+                    mb-8">
+
+
+                    Experiencia
+
+
+                </h3>
+
+
+
+
+
+                <ul
+                    class="
+                    space-y-4
+                    text-white/60">
+
+
+
+                    <li>
+
+                        <a
+                            href="#gallery"
+                            class="
+                            footer-link
+                            hover:text-white
+                            transition">
+
+
+                            Galería
+
+
+                        </a>
+
+
+                    </li>
+
+
+
+
+                    <li>
+
+                        <a
+                            href="#register"
+                            class="
+                            footer-link
+                            hover:text-white
+                            transition">
+
+
+                            Registro
+
+
+                        </a>
+
+
+                    </li>
+
+
+
+
+                    <li>
+
+                        <a
+                            href="#faq"
+                            class="
+                            footer-link
+                            hover:text-white
+                            transition">
+
+
+                            Preguntas frecuentes
+
+
+                        </a>
+
+
+                    </li>
+
+
+
+                </ul>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <!-- =============================================
+                    COLUMN 03
+                    CONTACTO
+            ============================================== -->
+
+
+            <div
+                class="footer-column">
+
+
+                <h3
+                    class="
+                    font-['Bebas_Neue']
+                    text-3xl
+                    uppercase
+                    tracking-wide
+                    mb-8">
+
+
+                    Contacto
+
+
+                </h3>
+
+
+
+
+
+                <ul
+                    class="
+                    space-y-5
+                    text-white/60">
+
+
+
+                    <li>
+
+
+                        <span
+                            class="
+                            block
+                            uppercase
+                            tracking-[0.2em]
+                            text-xs
+                            text-white/40
+                            mb-2">
+
+
+                            Email
+
+
+                        </span>
+
+
+
+                        contacto@estructuraymovimiento.com
+
+
+                    </li>
+
+
+
+
+
+                    <li>
+
+
+                        <span
+                            class="
+                            block
+                            uppercase
+                            tracking-[0.2em]
+                            text-xs
+                            text-white/40
+                            mb-2">
+
+
+                            Ubicación
+
+
+                        </span>
+
+
+
+                        Centro Internacional de Arquitectura
+
+
+                    </li>
+
+
+
+                </ul>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <!-- =============================================
+                    COLUMN 04
+                    REGISTRO CTA
+            ============================================== -->
+
+
+            <div
+                class="footer-column">
+
+
+                <h3
+                    class="
+                    font-['Bebas_Neue']
+                    text-3xl
+                    uppercase
+                    tracking-wide
+                    mb-8">
+
+
+                    Participa
+
+
+                </h3>
+
+
+
+
+
+                <p
+                    class="
+                    text-white/60
+                    leading-relaxed
+                    mb-8">
+
+
+                    Reserva tu lugar y forma parte
+                    del encuentro internacional de
+                    arquitectura industrial.
+
+
+                </p>
+
+
+
+
+
+                <a
+                    href="#register"
+                    class="
+                    inline-flex
+                    items-center
+                    gap-4
+                    bg-[#D72638]
+                    text-white
+                    px-8
+                    py-4
+                    uppercase
+                    tracking-[0.2em]
+                    text-sm
+                    font-semibold
+                    hover:scale-105
+                    transition">
+
+
+                    Registrarme
+
+
+                    <span>
+
+
+                        →
+
+
+                    </span>
+
+
+                </a>
+
+
+
+            </div>
+
+
+
+        </div>
+                <!-- =================================================
+                FOOTER BOTTOM
+        ================================================== -->
+
+
+        <div
+            id="footer-bottom"
+            class="
+            mt-20
+            pt-8
+            border-t
+            border-white/10
+            flex
+            flex-col
+            lg:flex-row
+            items-center
+            justify-between
+            gap-6">
+
+
+
+
+
+            <!-- COPYRIGHT -->
+
+
+            <p
+                class="
+                text-white/40
+                text-sm
+                uppercase
+                tracking-[0.2em]">
+
+
+                © 2026 Estructura & Movimiento.
+                Todos los derechos reservados.
+
+
+            </p>
+
+
+
+
+
+
+
+            <!-- SOCIAL LINKS -->
+
+
+            <div
+                class="
+                flex
+                items-center
+                gap-6">
+
+
+
+                <a
+                    href="#"
+                    class="
+                    footer-social
+                    w-10
+                    h-10
+                    border
+                    border-white/20
+                    flex
+                    items-center
+                    justify-center
+                    hover:bg-[#D72638]
+                    hover:border-[#D72638]
+                    transition">
+
+
+                    IG
+
+
+                </a>
+
+
+
+
+
+                <a
+                    href="#"
+                    class="
+                    footer-social
+                    w-10
+                    h-10
+                    border
+                    border-white/20
+                    flex
+                    items-center
+                    justify-center
+                    hover:bg-[#D72638]
+                    hover:border-[#D72638]
+                    transition">
+
+
+                    IN
+
+
+                </a>
+
+
+
+
+
+                <a
+                    href="#"
+                    class="
+                    footer-social
+                    w-10
+                    h-10
+                    border
+                    border-white/20
+                    flex
+                    items-center
+                    justify-center
+                    hover:bg-[#D72638]
+                    hover:border-[#D72638]
+                    transition">
+
+
+                    X
+
+
+                </a>
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <!-- =====================================================
+            DECORATIVE LABEL
+    ====================================================== -->
+
+
+    <div
+        class="
+        absolute
+        bottom-8
+        left-8
+        hidden
+        lg:block">
+
+
+        <p
+            class="
+            text-white/20
+            uppercase
+            tracking-[0.5em]
+            text-xs
+            rotate-90
+            origin-left">
+
+
+            Arquitectura • Ingeniería • Diseño
+
+
+        </p>
+
+
+    </div>
+
+
+
+
+
+
+</footer>
+<div id="footer-container"></div>
+    <div style="
+    margin-top:40px;
+    padding:28px 20px;
+    text-align:center;
+    background:#101213;
+    border-top:1px solid rgba(255,255,255,0.06);
+    font-family:Arial, Helvetica, sans-serif;">
+
+        <div style="
+        display:inline-flex;
+        align-items:center;
+        gap:8px;
+        padding:10px 16px;
+        border-radius:999px;
+        background:rgba(255,255,255,0.04);
+        border:1px solid rgba(255,255,255,0.08);
+        margin-bottom:18px;">
+
+            <span style="
+            width:8px;
+            height:8px;
+            border-radius:50%;
+            background:#94A3B8;
+            display:block;">
+            </span>
+
+            <span style="
+            font-size:11px;
+            letter-spacing:2px;
+            text-transform:uppercase;
+            color:#94A3B8;
+            font-weight:600;">
+
+                Demo Interactiva
+
+            </span>
+
+        </div>
+
+        <p style="
+        margin:0;
+        color:#E2E8F0;
+        font-size:14px;
+        line-height:1.8;">
+
+            © <span id="current-year"></span>
+
+            Simulación Frontend desarrollada por
+
+            <strong style="
+            color:#FFFFFF;
+            font-weight:600;">
+
+                Ing. Dylan Bernal
+
+            </strong>
+
+        </p>
+
+        <p style="
+        margin:8px 0 0;
+        color:rgba(226,232,240,0.6);
+        font-size:13px;">
+
+            Esta simulación forma parte de mi portafolio profesional.
+
+        </p>
+
+        <p style="margin-top:12px;">
+
+            <a href="#" target="_blank" style="
+            color:#94A3B8;
+            text-decoration:none;
+            font-weight:600;
+            transition:0.3s;">
+
+                DeividBernalF
+
+            </a>
+
+        </p>
+
+    </div>

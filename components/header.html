@@ -1,0 +1,353 @@
+<!-- =========================================================
+HEADER COMPONENT
+Archivo: components/header.html
+Estilo: Constructivismo Moderno
+Responsive: 100%
+========================================================== -->
+
+<header id="header"
+    class="fixed top-0 left-0 w-full z-50 transition-all duration-500">
+
+    <!-- Barra de progreso -->
+    <div id="progress-bar"
+        class="absolute top-0 left-0 h-[3px] bg-[#D72638] w-0 transition-all duration-150">
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar"
+        class="relative w-full bg-[#F4F1EB]/95 backdrop-blur-xl transition-all duration-500">
+
+        <div
+            class="max-w-7xl mx-auto px-6 lg:px-12 h-24 flex items-center justify-between">
+
+            <!-- ======================================
+                    LOGO
+            ======================================= -->
+
+            <a href="#hero"
+                class="group flex items-center gap-4">
+
+                <div
+                    class="w-10 h-10 border-4 border-[#D72638] rotate-45 transition duration-300 group-hover:rotate-[135deg] group-hover:scale-110">
+                </div>
+
+                <div>
+
+                    <h1
+                        class="font-['Bebas_Neue'] tracking-[0.18em] text-3xl text-[#141414] leading-none">
+
+                        ESTRUCTURA
+
+                    </h1>
+
+                    <p
+                        class="uppercase tracking-[0.35em] text-[10px] text-[#5D5D5D] font-semibold">
+
+                        & Movimiento
+
+                    </p>
+
+                </div>
+
+            </a>
+
+            <!-- ======================================
+                    DESKTOP MENU
+            ======================================= -->
+
+            <ul
+                class="hidden lg:flex items-center gap-10 font-medium text-[15px] uppercase tracking-[0.18em] text-[#141414]">
+
+                <li>
+                    <a class="nav-link relative group"
+                        href="#hero">
+
+                        Inicio
+
+                        <span
+                            class="absolute left-0 -bottom-2 h-[2px] w-0 bg-[#D72638] transition-all duration-300 group-hover:w-full">
+                        </span>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link relative group"
+                        href="#about">
+
+                        Evento
+
+                        <span
+                            class="absolute left-0 -bottom-2 h-[2px] w-0 bg-[#D72638] transition-all duration-300 group-hover:w-full">
+                        </span>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link relative group"
+                        href="#topics">
+
+                        Temáticas
+
+                        <span
+                            class="absolute left-0 -bottom-2 h-[2px] w-0 bg-[#D72638] transition-all duration-300 group-hover:w-full">
+                        </span>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link relative group"
+                        href="#speakers">
+
+                        Ponentes
+
+                        <span
+                            class="absolute left-0 -bottom-2 h-[2px] w-0 bg-[#D72638] transition-all duration-300 group-hover:w-full">
+                        </span>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link relative group"
+                        href="#agenda">
+
+                        Agenda
+
+                        <span
+                            class="absolute left-0 -bottom-2 h-[2px] w-0 bg-[#D72638] transition-all duration-300 group-hover:w-full">
+                        </span>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link relative group"
+                        href="#gallery">
+
+                        Galería
+
+                        <span
+                            class="absolute left-0 -bottom-2 h-[2px] w-0 bg-[#D72638] transition-all duration-300 group-hover:w-full">
+                        </span>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link relative group"
+                        href="#faq">
+
+                        FAQ
+
+                        <span
+                            class="absolute left-0 -bottom-2 h-[2px] w-0 bg-[#D72638] transition-all duration-300 group-hover:w-full">
+                        </span>
+
+                    </a>
+                </li>
+
+            </ul>
+
+            <!-- ======================================
+                    CTA
+            ======================================= -->
+
+            <a href="#register"
+                class="hidden lg:flex items-center gap-3 bg-[#D72638] text-white px-7 py-3 uppercase tracking-[0.18em] text-sm font-semibold hover:scale-105 transition duration-300">
+
+                Registro
+
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    viewBox="0 0 24 24">
+
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M5 12h14m-5-5 5 5-5 5"/>
+
+                </svg>
+
+            </a>
+
+            <!-- ======================================
+                    MOBILE BUTTON
+            ======================================= -->
+
+            <button
+                id="menu-toggle"
+                aria-label="Abrir menú"
+                class="lg:hidden flex flex-col justify-center gap-1.5">
+
+                <span
+                    class="menu-line w-8 h-[3px] bg-[#141414] transition-all duration-300">
+                </span>
+
+                <span
+                    class="menu-line w-8 h-[3px] bg-[#141414] transition-all duration-300">
+                </span>
+
+                <span
+                    class="menu-line w-8 h-[3px] bg-[#141414] transition-all duration-300">
+                </span>
+
+            </button>
+
+        </div>
+
+    </nav>
+
+    <!-- =========================================================
+                    MOBILE PANEL
+    ========================================================== -->
+
+    <aside
+        id="mobile-menu"
+        class="fixed top-0 right-0 z-[70] w-full sm:w-[420px] h-screen bg-[#F4F1EB] translate-x-full transition-transform duration-500 shadow-2xl">
+
+        <div
+            class="h-full flex flex-col">
+
+            <!-- Header -->
+
+            <div
+                class="flex justify-between items-center border-b border-[#141414]/10 px-8 h-24">
+
+                <div>
+
+                    <h2
+                        class="font-['Bebas_Neue'] text-3xl tracking-[0.15em]">
+
+                        MENU
+
+                    </h2>
+
+                </div>
+
+                <button
+                    id="close-menu"
+                    aria-label="Cerrar menú"
+                    class="text-4xl leading-none">
+
+                    ×
+
+                </button>
+
+            </div>
+
+            <!-- Navigation -->
+
+            <div
+                class="flex-1 overflow-y-auto">
+
+                <nav
+                    class="flex flex-col py-10">
+
+                    <a href="#hero"
+                        class="mobile-link border-b border-[#141414]/10 px-8 py-6 uppercase tracking-[0.18em] text-lg hover:bg-[#D72638] hover:text-white transition">
+
+                        Inicio
+
+                    </a>
+
+                    <a href="#about"
+                        class="mobile-link border-b border-[#141414]/10 px-8 py-6 uppercase tracking-[0.18em] text-lg hover:bg-[#D72638] hover:text-white transition">
+
+                        Evento
+
+                    </a>
+
+                    <a href="#topics"
+                        class="mobile-link border-b border-[#141414]/10 px-8 py-6 uppercase tracking-[0.18em] text-lg hover:bg-[#D72638] hover:text-white transition">
+
+                        Temáticas
+
+                    </a>
+
+                    <a href="#speakers"
+                        class="mobile-link border-b border-[#141414]/10 px-8 py-6 uppercase tracking-[0.18em] text-lg hover:bg-[#D72638] hover:text-white transition">
+
+                        Ponentes
+
+                    </a>
+
+                    <a href="#agenda"
+                        class="mobile-link border-b border-[#141414]/10 px-8 py-6 uppercase tracking-[0.18em] text-lg hover:bg-[#D72638] hover:text-white transition">
+
+                        Agenda
+
+                    </a>
+
+                    <a href="#gallery"
+                        class="mobile-link border-b border-[#141414]/10 px-8 py-6 uppercase tracking-[0.18em] text-lg hover:bg-[#D72638] hover:text-white transition">
+
+                        Galería
+
+                    </a>
+
+                    <a href="#register"
+                        class="mobile-link border-b border-[#141414]/10 px-8 py-6 uppercase tracking-[0.18em] text-lg hover:bg-[#D72638] hover:text-white transition">
+
+                        Registro
+
+                    </a>
+
+                    <a href="#faq"
+                        class="mobile-link border-b border-[#141414]/10 px-8 py-6 uppercase tracking-[0.18em] text-lg hover:bg-[#D72638] hover:text-white transition">
+
+                        FAQ
+
+                    </a>
+
+                </nav>
+
+            </div>
+
+            <!-- Footer -->
+
+            <div
+                class="border-t border-[#141414]/10 p-8">
+
+                <div
+                    class="flex items-center gap-4">
+
+                    <div
+                        class="w-5 h-5 bg-[#D72638] rotate-45">
+                    </div>
+
+                    <p
+                        class="text-sm uppercase tracking-[0.2em] text-[#5D5D5D]">
+
+                        Evento de Arquitectura Industrial
+
+                    </p>
+
+                </div>
+
+                <a href="#register"
+                    class="mt-8 w-full flex justify-center items-center bg-[#D72638] text-white py-4 uppercase tracking-[0.18em] hover:scale-[1.02] transition">
+
+                    Reservar lugar
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+    <!-- Overlay -->
+
+    <div
+        id="menu-overlay"
+        class="fixed inset-0 z-[60] bg-black/50 opacity-0 invisible transition-all duration-500">
+    </div>
+
+</header>

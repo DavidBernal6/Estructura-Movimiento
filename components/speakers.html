@@ -1,0 +1,1205 @@
+<!-- =========================================================
+SPEAKERS SECTION
+Archivo: components/speakers.html
+
+Sección:
+- Ponentes principales
+- Tarjetas de especialistas
+- Preparado para GSAP
+- Diseño constructivista moderno
+========================================================= -->
+
+
+<section
+    id="speakers"
+    class="relative overflow-hidden bg-[#F4F1EB] py-32">
+
+
+    <!-- =====================================================
+            BACKGROUND GRID
+    ====================================================== -->
+
+
+    <div
+        class="absolute inset-0 opacity-[0.04] pointer-events-none">
+
+
+        <div
+            class="absolute inset-0"
+            style="
+            background-image:
+            linear-gradient(to right,#141414 1px,transparent 1px),
+            linear-gradient(to bottom,#141414 1px,transparent 1px);
+            background-size:80px 80px;">
+        </div>
+
+
+    </div>
+
+
+
+    <!-- =====================================================
+            DECORATIVE ELEMENTS
+    ====================================================== -->
+
+
+    <div
+        id="speakers-shape-1"
+        class="
+        absolute
+        left-10
+        top-32
+        w-28
+        h-28
+        bg-[#D72638]
+        rotate-45
+        opacity-90">
+    </div>
+
+
+
+    <div
+        id="speakers-shape-2"
+        class="
+        absolute
+        right-20
+        top-48
+        w-40
+        h-40
+        border-[8px]
+        border-[#141414]
+        rotate-12">
+    </div>
+
+
+
+    <div
+        class="
+        absolute
+        left-0
+        bottom-40
+        w-56
+        h-[2px]
+        bg-[#D72638]">
+    </div>
+
+
+
+    <div
+        class="
+        absolute
+        right-0
+        top-1/2
+        w-64
+        h-[2px]
+        bg-[#141414]">
+    </div>
+
+
+
+
+    <!-- =====================================================
+            MAIN CONTAINER
+    ====================================================== -->
+
+
+    <div
+        class="
+        relative
+        z-10
+        max-w-7xl
+        mx-auto
+        px-6
+        lg:px-12">
+
+
+
+        <!-- =================================================
+                SECTION HEADER
+        ================================================== -->
+
+
+        <div
+            id="speakers-header"
+            class="
+            max-w-4xl
+            mb-20">
+
+
+            <div
+                class="
+                flex
+                items-center
+                gap-4
+                uppercase
+                tracking-[0.35em]
+                text-xs
+                font-semibold">
+
+
+                <span
+                    class="
+                    w-10
+                    h-[2px]
+                    bg-[#D72638]">
+                </span>
+
+
+                Expertos Internacionales
+
+
+            </div>
+
+
+
+
+            <h2
+                class="
+                mt-8
+                font-['Bebas_Neue']
+                uppercase
+                leading-[0.9]
+                tracking-[0.05em]
+                text-[5rem]
+                sm:text-[7rem]
+                lg:text-[9rem]">
+
+
+                VOCES
+
+
+                <span
+                    class="
+                    block
+                    text-[#D72638]">
+
+                    QUE
+
+                </span>
+
+
+                TRANSFORMAN
+
+
+
+            </h2>
+
+
+
+
+            <p
+                class="
+                mt-8
+                max-w-2xl
+                text-lg
+                lg:text-xl
+                text-[#5D5D5D]
+                leading-relaxed">
+
+
+                Arquitectos, ingenieros y especialistas
+                internacionales compartirán experiencias,
+                metodologías y nuevas perspectivas sobre
+                el futuro de la arquitectura industrial.
+
+
+            </p>
+
+
+
+        </div>
+
+
+
+
+
+        <!-- =================================================
+                SPEAKERS GRID
+        ================================================== -->
+
+
+        <div
+            id="speakers-grid"
+            class="
+            grid
+            md:grid-cols-2
+            lg:grid-cols-4
+            gap-8">
+
+
+            <!-- CARD 01 -->
+
+
+            <article
+                class="
+                speaker-card
+                group
+                relative
+                bg-[#141414]
+                overflow-hidden
+                min-h-[520px]">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop"
+                    alt="Ponente arquitectura"
+                    class="
+                    absolute
+                    inset-0
+                    w-full
+                    h-full
+                    object-cover
+                    grayscale
+                    transition
+                    duration-700
+                    group-hover:scale-110
+                    group-hover:grayscale-0">
+
+
+
+                <div
+                    class="
+                    absolute
+                    inset-0
+                    bg-gradient-to-t
+                    from-[#141414]
+                    via-[#141414]/50
+                    to-transparent">
+                </div>
+
+
+
+                <div
+                    class="
+                    absolute
+                    bottom-0
+                    left-0
+                    p-8
+                    text-white">
+
+
+                    <span
+                        class="
+                        text-[#D72638]
+                        text-sm
+                        tracking-[0.3em]
+                        uppercase">
+
+                        01
+
+                    </span>
+
+
+                    <h3
+                        class="
+                        mt-4
+                        font-['Bebas_Neue']
+                        text-4xl
+                        uppercase
+                        tracking-wide">
+
+
+                        Alejandro Ruiz
+
+
+                    </h3>
+
+
+                    <p
+                        class="
+                        mt-2
+                        text-sm
+                        text-white/70
+                        uppercase
+                        tracking-[0.2em]">
+
+
+                        Arquitectura Industrial
+
+
+                    </p>
+
+
+                </div>
+
+
+
+            </article>
+                        <!-- CARD 02 -->
+
+
+            <article
+                class="
+                speaker-card
+                group
+                relative
+                bg-[#141414]
+                overflow-hidden
+                min-h-[520px]">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=800&auto=format&fit=crop"
+                    alt="Ponente diseño"
+                    class="
+                    absolute
+                    inset-0
+                    w-full
+                    h-full
+                    object-cover
+                    grayscale
+                    transition
+                    duration-700
+                    group-hover:scale-110
+                    group-hover:grayscale-0">
+
+
+
+                <div
+                    class="
+                    absolute
+                    inset-0
+                    bg-gradient-to-t
+                    from-[#141414]
+                    via-[#141414]/50
+                    to-transparent">
+                </div>
+
+
+
+                <div
+                    class="
+                    absolute
+                    bottom-0
+                    left-0
+                    p-8
+                    text-white">
+
+
+                    <span
+                        class="
+                        text-[#D72638]
+                        text-sm
+                        tracking-[0.3em]
+                        uppercase">
+
+                        02
+
+                    </span>
+
+
+
+                    <h3
+                        class="
+                        mt-4
+                        font-['Bebas_Neue']
+                        text-4xl
+                        uppercase
+                        tracking-wide">
+
+
+                        Sofía Mendoza
+
+
+                    </h3>
+
+
+
+                    <p
+                        class="
+                        mt-2
+                        text-sm
+                        text-white/70
+                        uppercase
+                        tracking-[0.2em]">
+
+
+                        Diseño Urbano
+
+
+                    </p>
+
+
+                </div>
+
+
+
+            </article>
+
+
+
+
+
+
+            <!-- CARD 03 -->
+
+
+            <article
+                class="
+                speaker-card
+                group
+                relative
+                bg-[#141414]
+                overflow-hidden
+                min-h-[520px]">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop"
+                    alt="Ponente ingeniería"
+                    class="
+                    absolute
+                    inset-0
+                    w-full
+                    h-full
+                    object-cover
+                    grayscale
+                    transition
+                    duration-700
+                    group-hover:scale-110
+                    group-hover:grayscale-0">
+
+
+
+                <div
+                    class="
+                    absolute
+                    inset-0
+                    bg-gradient-to-t
+                    from-[#141414]
+                    via-[#141414]/50
+                    to-transparent">
+                </div>
+
+
+
+
+                <div
+                    class="
+                    absolute
+                    bottom-0
+                    left-0
+                    p-8
+                    text-white">
+
+
+
+                    <span
+                        class="
+                        text-[#D72638]
+                        text-sm
+                        tracking-[0.3em]
+                        uppercase">
+
+                        03
+
+                    </span>
+
+
+
+                    <h3
+                        class="
+                        mt-4
+                        font-['Bebas_Neue']
+                        text-4xl
+                        uppercase
+                        tracking-wide">
+
+
+                        Daniel Torres
+
+
+                    </h3>
+
+
+
+
+                    <p
+                        class="
+                        mt-2
+                        text-sm
+                        text-white/70
+                        uppercase
+                        tracking-[0.2em]">
+
+
+                        Ingeniería Estructural
+
+
+                    </p>
+
+
+
+                </div>
+
+
+
+
+            </article>
+
+
+
+
+
+
+
+            <!-- CARD 04 -->
+
+
+            <article
+                class="
+                speaker-card
+                group
+                relative
+                bg-[#141414]
+                overflow-hidden
+                min-h-[520px]">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop"
+                    alt="Ponente innovación"
+                    class="
+                    absolute
+                    inset-0
+                    w-full
+                    h-full
+                    object-cover
+                    grayscale
+                    transition
+                    duration-700
+                    group-hover:scale-110
+                    group-hover:grayscale-0">
+
+
+
+                <div
+                    class="
+                    absolute
+                    inset-0
+                    bg-gradient-to-t
+                    from-[#141414]
+                    via-[#141414]/50
+                    to-transparent">
+                </div>
+
+
+
+                <div
+                    class="
+                    absolute
+                    bottom-0
+                    left-0
+                    p-8
+                    text-white">
+
+
+
+                    <span
+                        class="
+                        text-[#D72638]
+                        text-sm
+                        tracking-[0.3em]
+                        uppercase">
+
+                        04
+
+                    </span>
+
+
+
+
+                    <h3
+                        class="
+                        mt-4
+                        font-['Bebas_Neue']
+                        text-4xl
+                        uppercase
+                        tracking-wide">
+
+
+                        Laura Herrera
+
+
+                    </h3>
+
+
+
+
+                    <p
+                        class="
+                        mt-2
+                        text-sm
+                        text-white/70
+                        uppercase
+                        tracking-[0.2em]">
+
+
+                        Innovación Sostenible
+
+
+                    </p>
+
+
+
+                </div>
+
+
+
+
+            </article>
+
+
+
+
+
+
+        </div>
+                <!-- =================================================
+                FEATURED SPEAKER PANEL
+        ================================================== -->
+
+
+        <div
+            id="featured-speaker"
+            class="
+            mt-24
+            relative
+            border-t
+            border-[#141414]/20
+            pt-16">
+
+
+            <div
+                class="
+                grid
+                lg:grid-cols-12
+                gap-10
+                items-center">
+
+
+
+                <!-- LEFT INFO -->
+
+
+                <div
+                    class="
+                    lg:col-span-7">
+
+
+
+                    <div
+                        class="
+                        flex
+                        items-center
+                        gap-4
+                        uppercase
+                        tracking-[0.3em]
+                        text-xs
+                        font-semibold">
+
+
+                        <span
+                            class="
+                            w-10
+                            h-[2px]
+                            bg-[#D72638]">
+                        </span>
+
+
+                        Conferencia Magistral
+
+
+                    </div>
+
+
+
+                    <h3
+                        class="
+                        mt-8
+                        font-['Bebas_Neue']
+                        uppercase
+                        text-6xl
+                        lg:text-8xl
+                        leading-none">
+
+
+                        Construyendo
+
+
+                        <span
+                            class="
+                            block
+                            text-[#D72638]">
+
+                            El Futuro
+
+                        </span>
+
+
+
+                    </h3>
+
+
+
+                    <p
+                        class="
+                        mt-8
+                        max-w-xl
+                        text-lg
+                        text-[#5D5D5D]
+                        leading-relaxed">
+
+
+                        Una conversación sobre tecnología,
+                        materiales inteligentes y nuevas formas
+                        de entender la relación entre estructura,
+                        espacio y sociedad.
+
+
+
+                    </p>
+
+
+
+                    <a
+                        href="#agenda"
+                        class="
+                        inline-flex
+                        items-center
+                        gap-4
+                        mt-10
+                        bg-[#141414]
+                        text-white
+                        px-8
+                        py-5
+                        uppercase
+                        tracking-[0.2em]
+                        text-sm
+                        font-semibold
+                        transition
+                        duration-300
+                        hover:bg-[#D72638]">
+
+
+                        Ver Agenda
+
+
+
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="
+                            w-5
+                            h-5"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            viewBox="0 0 24 24">
+
+
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M5 12h14m-5-5 5 5-5 5"/>
+
+
+                        </svg>
+
+
+
+                    </a>
+
+
+
+                </div>
+
+
+
+
+
+
+                <!-- RIGHT STATISTICS -->
+
+
+                <div
+                    class="
+                    lg:col-span-5
+                    grid
+                    grid-cols-2
+                    gap-6">
+
+
+
+                    <div
+                        class="
+                        border
+                        border-[#141414]/20
+                        p-8
+                        bg-white">
+
+
+                        <span
+                            class="
+                            font-['Bebas_Neue']
+                            text-6xl
+                            text-[#D72638]">
+
+                            15+
+
+                        </span>
+
+
+                        <p
+                            class="
+                            mt-3
+                            uppercase
+                            tracking-[0.2em]
+                            text-xs">
+
+
+                            Años experiencia
+
+
+                        </p>
+
+
+                    </div>
+
+
+
+
+
+
+                    <div
+                        class="
+                        border
+                        border-[#141414]/20
+                        p-8
+                        bg-white">
+
+
+                        <span
+                            class="
+                            font-['Bebas_Neue']
+                            text-6xl">
+
+                            08
+
+                        </span>
+
+
+                        <p
+                            class="
+                            mt-3
+                            uppercase
+                            tracking-[0.2em]
+                            text-xs">
+
+
+                            Países
+
+
+                        </p>
+
+
+                    </div>
+
+
+
+
+
+
+                    <div
+                        class="
+                        border
+                        border-[#141414]/20
+                        p-8
+                        bg-white">
+
+
+                        <span
+                            class="
+                            font-['Bebas_Neue']
+                            text-6xl">
+
+                            40+
+
+                        </span>
+
+
+                        <p
+                            class="
+                            mt-3
+                            uppercase
+                            tracking-[0.2em]
+                            text-xs">
+
+
+                            Proyectos
+
+
+                        </p>
+
+
+                    </div>
+
+
+
+
+
+
+                    <div
+                        class="
+                        border
+                        border-[#141414]/20
+                        p-8
+                        bg-[#D72638]
+                        text-white">
+
+
+                        <span
+                            class="
+                            font-['Bebas_Neue']
+                            text-6xl">
+
+                            2026
+
+                        </span>
+
+
+                        <p
+                            class="
+                            mt-3
+                            uppercase
+                            tracking-[0.2em]
+                            text-xs">
+
+
+                            Edición
+
+
+                        </p>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <!-- =====================================================
+            BOTTOM DECORATIVE LABEL
+    ====================================================== -->
+
+
+    <div
+        class="
+        absolute
+        bottom-0
+        left-0
+        w-full
+        border-t
+        border-[#141414]/20">
+
+
+
+        <div
+            class="
+            max-w-7xl
+            mx-auto
+            px-6
+            lg:px-12
+            py-6
+            flex
+            justify-between
+            items-center">
+
+
+            <p
+                class="
+                uppercase
+                tracking-[0.3em]
+                text-xs
+                font-semibold">
+
+
+                Estructura & Movimiento · 2026
+
+
+            </p>
+
+
+
+
+            <div
+                class="
+                flex
+                items-center
+                gap-3">
+
+
+                <span
+                    class="
+                    w-3
+                    h-3
+                    bg-[#D72638]
+                    rotate-45">
+                </span>
+
+
+                <span
+                    class="
+                    uppercase
+                    tracking-[0.25em]
+                    text-xs">
+
+
+                    Speakers
+
+
+                </span>
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+<!-- =========================================================
+    SPEAKERS COMPONENT END
+
+    Hooks para speakers.js:
+
+    #speakers
+    #speakers-header
+    #speakers-grid
+    .speaker-card
+    #featured-speaker
+    #speakers-shape-1
+    #speakers-shape-2
+
+========================================================= -->
+
+
+
+
+<style>
+
+
+/* ==========================================
+   SPEAKERS VARIABLES
+========================================== */
+
+
+#speakers{
+
+    --primary:#D72638;
+    --dark:#141414;
+    --paper:#F4F1EB;
+
+}
+
+
+
+
+/* ==========================================
+   CARD EFFECTS
+========================================== */
+
+
+.speaker-card{
+
+    transform-style:preserve-3d;
+
+}
+
+
+
+.speaker-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    border:1px solid rgba(255,255,255,.15);
+
+    pointer-events:none;
+
+}
+
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+
+@media(max-width:768px){
+
+
+    #speakers{
+
+        padding-top:6rem;
+        padding-bottom:8rem;
+
+    }
+
+
+    .speaker-card{
+
+        min-height:450px;
+
+    }
+
+
+    #featured-speaker h3{
+
+        font-size:4rem;
+
+    }
+
+
+
+}
+
+
+</style>

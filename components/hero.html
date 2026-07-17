@@ -1,0 +1,955 @@
+<!-- =========================================================
+HERO SECTION
+Archivo: components/hero.html
+========================================================= -->
+
+<section
+    id="hero"
+    class="relative min-h-screen overflow-hidden bg-[#F4F1EB] pt-24">
+
+    <!-- ===============================
+            BACKGROUND GRID
+    ================================ -->
+
+    <div
+        class="absolute inset-0 opacity-[0.05] pointer-events-none">
+
+        <div
+            class="absolute inset-0"
+            style="
+                background-image:
+                linear-gradient(to right,#141414 1px,transparent 1px),
+                linear-gradient(to bottom,#141414 1px,transparent 1px);
+                background-size:80px 80px;">
+        </div>
+
+    </div>
+
+    <!-- ===============================
+            DECORATIVE LINES
+    ================================ -->
+
+    <div
+        class="absolute left-0 top-0 h-full w-[3px] bg-[#D72638]">
+    </div>
+
+    <div
+        class="absolute right-0 top-0 h-full w-[3px] bg-[#141414]">
+    </div>
+
+    <div
+        class="absolute left-0 top-36 h-[2px] w-56 bg-[#141414]">
+    </div>
+
+    <div
+        class="absolute right-0 bottom-28 h-[2px] w-80 bg-[#D72638]">
+    </div>
+
+    <!-- ===============================
+            GEOMETRIC FIGURES
+    ================================ -->
+
+    <div
+        id="shape-1"
+        class="absolute left-10 top-44 w-24 h-24 bg-[#D72638] rotate-45 opacity-90">
+    </div>
+
+    <div
+        id="shape-2"
+        class="absolute right-32 top-56 w-36 h-36 border-[10px] border-[#141414] rotate-12">
+    </div>
+
+    <div
+        id="shape-3"
+        class="absolute bottom-24 left-1/2 -translate-x-1/2 w-12 h-12 bg-[#F2C94C] rounded-full">
+    </div>
+
+    <!-- ===============================
+            MAIN CONTAINER
+    ================================ -->
+
+    <div
+        class="relative z-20 max-w-7xl mx-auto px-6 lg:px-10 py-20">
+
+        <div
+            class="grid lg:grid-cols-12 gap-14 items-center">
+
+            <!-- ==========================================
+                        LEFT CONTENT
+            =========================================== -->
+
+            <div
+                class="lg:col-span-7">
+
+                <!-- Label -->
+
+                <div
+                    id="hero-label"
+                    class="inline-flex items-center gap-3 uppercase tracking-[0.35em] text-xs font-semibold">
+
+                    <span
+                        class="w-8 h-[2px] bg-[#D72638]">
+                    </span>
+
+                    Evento Internacional
+
+                </div>
+
+                <!-- Title -->
+
+                <h1
+                    id="hero-title"
+                    class="font-['Bebas_Neue']
+                    uppercase
+                    leading-[0.88]
+                    tracking-[0.06em]
+                    text-[5rem]
+                    sm:text-[7rem]
+                    lg:text-[9rem]
+                    xl:text-[10rem]
+                    mt-8">
+
+                    ESTRUCTURA
+
+                    <span
+                        class="block text-[#D72638]">
+
+                        &
+                    </span>
+
+                    MOVIMIENTO
+
+                </h1>
+
+                <!-- Description -->
+
+                <p
+                    id="hero-description"
+                    class="mt-10
+                    max-w-2xl
+                    text-lg
+                    lg:text-xl
+                    leading-relaxed
+                    text-[#5D5D5D]">
+
+                    Un encuentro internacional donde arquitectos,
+                    ingenieros y diseñadores exploran nuevas formas
+                    de construir ciudades mediante innovación,
+                    sostenibilidad y arquitectura industrial.
+
+                </p>
+
+                <!-- CTA -->
+
+                <div
+                    id="hero-buttons"
+                    class="flex flex-wrap gap-5 mt-12">
+
+                    <a
+                        href="#register"
+                        class="group
+                        bg-[#D72638]
+                        text-white
+                        uppercase
+                        tracking-[0.18em]
+                        px-8
+                        py-5
+                        font-semibold
+                        transition
+                        duration-300
+                        hover:scale-105
+                        flex
+                        items-center
+                        gap-4">
+
+                        Reservar Lugar
+
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-5 h-5 transition-transform duration-300 group-hover:translate-x-2"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            viewBox="0 0 24 24">
+
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M5 12h14m-5-5 5 5-5 5"/>
+
+                        </svg>
+
+                    </a>
+
+                    <a
+                        href="#about"
+                        class="border-2
+                        border-[#141414]
+                        uppercase
+                        tracking-[0.18em]
+                        px-8
+                        py-5
+                        hover:bg-[#141414]
+                        hover:text-white
+                        transition
+                        duration-300">
+
+                        Descubrir Evento
+
+                    </a>
+
+                </div>
+
+                <!-- Statistics -->
+
+                <div
+                    id="hero-stats"
+                    class="grid
+                    grid-cols-2
+                    lg:grid-cols-4
+                    gap-8
+                    mt-20">
+
+                    <div>
+
+                        <h3
+                            class="font-['Bebas_Neue']
+                            text-6xl
+                            text-[#D72638]">
+
+                            25+
+
+                        </h3>
+
+                        <p
+                            class="uppercase
+                            tracking-[0.15em]
+                            text-sm
+                            mt-2">
+
+                            Ponentes
+
+                        </p>
+
+                    </div>
+
+                    <div>
+
+                        <h3
+                            class="font-['Bebas_Neue']
+                            text-6xl">
+
+                            18
+
+                        </h3>
+
+                        <p
+                            class="uppercase
+                            tracking-[0.15em]
+                            text-sm
+                            mt-2">
+
+                            Conferencias
+
+                        </p>
+
+                    </div>
+
+                    <div>
+
+                        <h3
+                            class="font-['Bebas_Neue']
+                            text-6xl">
+
+                            12
+
+                        </h3>
+
+                        <p
+                            class="uppercase
+                            tracking-[0.15em]
+                            text-sm
+                            mt-2">
+
+                            Workshops
+
+                        </p>
+
+                    </div>
+
+                    <div>
+
+                        <h3
+                            class="font-['Bebas_Neue']
+                            text-6xl">
+
+                            03
+
+                        </h3>
+
+                        <p
+                            class="uppercase
+                            tracking-[0.15em]
+                            text-sm
+                            mt-2">
+
+                            Escenarios
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+            <!-- ==========================================
+                        RIGHT VISUAL COMPOSITION
+            =========================================== -->
+
+            <div
+                class="lg:col-span-5 relative h-[650px] lg:h-[780px]">
+
+                <!-- Main Image Frame -->
+
+                <div
+                    id="hero-image-frame"
+                    class="
+                    absolute
+                    right-0
+                    top-10
+                    w-[85%]
+                    h-[70%]
+                    border-[8px]
+                    border-[#141414]
+                    overflow-hidden
+                    bg-[#141414]
+                    ">
+
+                    <img
+                        id="hero-main-image"
+                        src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop"
+                        alt="Arquitectura industrial moderna"
+                        class="
+                        w-full
+                        h-full
+                        object-cover
+                        grayscale
+                        transition
+                        duration-700
+                        hover:grayscale-0
+                        scale-110
+                        ">
+
+                    <!-- Image Overlay -->
+
+                    <div
+                        class="
+                        absolute
+                        inset-0
+                        bg-[#141414]/30
+                        mix-blend-multiply
+                        ">
+                    </div>
+
+
+                    <!-- Vertical Text -->
+
+                    <div
+                        class="
+                        absolute
+                        right-6
+                        top-1/2
+                        -translate-y-1/2
+                        writing-vertical
+                        ">
+
+                        <span
+                            class="
+                            uppercase
+                            tracking-[0.5em]
+                            text-white
+                            text-xs
+                            font-semibold
+                            ">
+
+                            Industrial Architecture
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Secondary Image -->
+
+                <div
+                    id="hero-secondary-image"
+                    class="
+                    absolute
+                    left-0
+                    bottom-20
+                    w-[45%]
+                    h-[220px]
+                    border-[6px]
+                    border-[#F4F1EB]
+                    shadow-2xl
+                    overflow-hidden
+                    bg-[#D72638]
+                    ">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=900&auto=format&fit=crop"
+                        alt="Diseño arquitectónico"
+                        class="
+                        w-full
+                        h-full
+                        object-cover
+                        grayscale
+                        ">
+
+                </div>
+
+
+                <!-- Floating Number -->
+
+                <div
+                    id="hero-number"
+                    class="
+                    absolute
+                    right-5
+                    bottom-24
+                    bg-[#D72638]
+                    text-white
+                    w-36
+                    h-36
+                    flex
+                    flex-col
+                    justify-center
+                    items-center
+                    rotate-12
+                    ">
+
+                    <span
+                        class="
+                        font-['Bebas_Neue']
+                        text-6xl
+                        leading-none">
+
+                        2026
+
+                    </span>
+
+                    <span
+                        class="
+                        uppercase
+                        tracking-[0.25em]
+                        text-[10px]">
+
+                        Edition
+
+                    </span>
+
+                </div>
+
+
+                <!-- Blueprint Lines -->
+
+                <div
+                    class="
+                    absolute
+                    left-10
+                    top-24
+                    w-40
+                    h-40
+                    border
+                    border-[#141414]
+                    opacity-40">
+
+                </div>
+
+
+                <div
+                    class="
+                    absolute
+                    right-20
+                    bottom-10
+                    w-28
+                    h-28
+                    border-[3px]
+                    border-[#D72638]
+                    rotate-45">
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==========================================
+                BOTTOM INFORMATION BAR
+    =========================================== -->
+
+    <div
+        class="
+        absolute
+        bottom-0
+        left-0
+        w-full
+        border-t
+        border-[#141414]/20
+        bg-[#F4F1EB]/80
+        backdrop-blur-md
+        ">
+
+        <div
+            class="
+            max-w-7xl
+            mx-auto
+            px-6
+            lg:px-10
+            py-6
+            flex
+            flex-col
+            md:flex-row
+            justify-between
+            gap-6
+            items-center">
+
+
+            <div
+                class="
+                flex
+                items-center
+                gap-5">
+
+                <span
+                    class="
+                    w-12
+                    h-[2px]
+                    bg-[#D72638]">
+                </span>
+
+
+                <p
+                    class="
+                    uppercase
+                    tracking-[0.3em]
+                    text-xs
+                    font-semibold">
+
+                    Ciudad de México · Octubre 2026
+
+                </p>
+
+
+            </div>
+
+
+
+            <!-- Scroll Indicator -->
+
+            <a
+                href="#about"
+                id="scroll-indicator"
+                class="
+                flex
+                items-center
+                gap-4
+                uppercase
+                tracking-[0.25em]
+                text-xs
+                font-semibold
+                group">
+
+                Explorar
+
+
+                <span
+                    class="
+                    w-10
+                    h-10
+                    border
+                    border-[#141414]
+                    flex
+                    items-center
+                    justify-center
+                    rounded-full
+                    transition
+                    duration-300
+                    group-hover:bg-[#D72638]
+                    group-hover:text-white
+                    group-hover:border-[#D72638]">
+
+
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-5 h-5 animate-bounce"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M19 9l-7 7-7-7"/>
+
+                    </svg>
+
+
+                </span>
+
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+<style>
+
+.writing-vertical{
+
+    writing-mode: vertical-rl;
+
+}
+
+
+@media(max-width:1024px){
+
+    #hero-image-frame{
+
+        right:auto;
+        left:10%;
+        width:80%;
+        height:65%;
+
+    }
+
+
+    #hero-secondary-image{
+
+        left:5%;
+        bottom:80px;
+
+    }
+
+
+}
+
+
+@media(max-width:640px){
+
+
+    #hero-image-frame{
+
+        width:85%;
+        height:55%;
+        top:30px;
+
+    }
+
+
+    #hero-secondary-image{
+
+        width:55%;
+        height:150px;
+        bottom:70px;
+
+    }
+
+
+    #hero-number{
+
+        width:100px;
+        height:100px;
+
+    }
+
+
+}
+
+
+</style>
+
+<!-- =========================================================
+    HERO COMPONENT END
+    Archivo: components/hero.html
+
+    Incluye:
+    - Responsive final
+    - Variables visuales
+    - Preparación para GSAP
+    - Estados iniciales de animación
+========================================================= -->
+
+
+<style>
+
+
+/* =========================================================
+   VARIABLES VISUALES DEL HERO
+========================================================= */
+
+#hero {
+
+    --primary: #D72638;
+    --dark: #141414;
+    --paper: #F4F1EB;
+    --gray: #5D5D5D;
+
+}
+
+
+/* =========================================================
+   ANIMATION STATES
+   Controlados desde hero.js
+========================================================= */
+
+
+.hero-hidden {
+
+    opacity:0;
+    transform:translateY(60px);
+
+}
+
+
+.hero-hidden-left {
+
+    opacity:0;
+    transform:translateX(-80px);
+
+}
+
+
+.hero-hidden-right {
+
+    opacity:0;
+    transform:translateX(80px);
+
+}
+
+
+.hero-hidden-scale {
+
+    opacity:0;
+    transform:scale(.85);
+
+}
+
+
+
+/* =========================================================
+   CONSTRUCTIVIST DETAILS
+========================================================= */
+
+
+.construct-line {
+
+    position:absolute;
+    background:#141414;
+
+}
+
+
+.construct-line.vertical {
+
+    width:2px;
+    height:100%;
+
+}
+
+
+.construct-line.horizontal {
+
+    height:2px;
+    width:100%;
+
+}
+
+
+
+/* =========================================================
+   IMAGE EFFECT
+========================================================= */
+
+
+#hero-main-image {
+
+    filter:
+    grayscale(100%)
+    contrast(1.15);
+
+}
+
+
+#hero-main-image:hover {
+
+    filter:
+    grayscale(0%)
+    contrast(1);
+
+}
+
+
+
+/* =========================================================
+   MOBILE OPTIMIZATION
+========================================================= */
+
+
+@media(max-width:768px){
+
+
+    #hero {
+
+        min-height:auto;
+        padding-bottom:130px;
+
+    }
+
+
+    #hero-title {
+
+        letter-spacing:.02em;
+
+    }
+
+
+    #hero-description {
+
+        font-size:1rem;
+
+    }
+
+
+    #hero-buttons a {
+
+        width:100%;
+        justify-content:center;
+
+    }
+
+
+    #hero-stats {
+
+        gap:2rem;
+
+    }
+
+
+    #hero-stats h3 {
+
+        font-size:3rem;
+
+    }
+
+
+}
+
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+
+@media(max-width:430px){
+
+
+    #hero-title {
+
+        font-size:4.2rem;
+
+    }
+
+
+    #shape-1 {
+
+        width:60px;
+        height:60px;
+
+    }
+
+
+    #shape-2 {
+
+        width:90px;
+        height:90px;
+
+    }
+
+
+    #hero-secondary-image {
+
+        display:none;
+
+    }
+
+
+    #hero-number {
+
+        right:10px;
+        bottom:40px;
+
+    }
+
+
+}
+
+
+
+</style>
+
+
+<!-- =========================================================
+    HERO JS HOOKS
+
+    Elementos utilizados por hero.js:
+
+    #hero-label
+    #hero-title
+    #hero-description
+    #hero-buttons
+    #hero-stats
+    #hero-image-frame
+    #hero-secondary-image
+    #hero-number
+    #shape-1
+    #shape-2
+    #shape-3
+    #scroll-indicator
+
+========================================================= -->
+
+
+<script>
+
+
+/*
+    Este bloque NO ejecuta animaciones.
+
+    Solo deja preparado el componente.
+
+    Las animaciones serán controladas
+    desde:
+
+    js/hero.js
+
+    usando GSAP + ScrollTrigger.
+*/
+
+
+</script>
